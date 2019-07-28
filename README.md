@@ -1,6 +1,8 @@
 # SO-KDN
 Self Organised Knowledge Defined Netwrok
 
+![](pics/SO_KDN_arch.png)
+
 # Self-Organised Knowledge Defined Networks (SO-KDN)
 SO-KDN is a overlay SDN running on top of a non-SDN network. the custom Control plane __pulls__ the information from the infrastructure-plane,
 __aggregates___ it and store into a a datastructure compatible for __high speed query__ such as Elastic or Pandas Dataframe. Also unlike 
@@ -19,6 +21,7 @@ the fouth piller _self-Learning_ is introduced. to adapt the change SO-KDN also 
 3. __Scalability__ : SO-KDN is designed with a multithreaded Model where each network device is represed by an object running on its own thread. (please see the effect on the _intelligent SDN.ipynb_ file 
 
 4. __Communication Flexibility__ : The communication between the Underlay & Overlay can be done in various ways based on the needs.
+![](pics/comm_modes.png)
 > * Databse Driven  : for analysing a large pool of Data and communication with bigdata framework like hadoop
 > * Socket Based    : where data is temporal for online learning only 
 > * Hybrid          : A combination of both, Underlay sends over socket and Overlay stores into a Database
