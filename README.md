@@ -1,7 +1,9 @@
 # SO-KDN
-Self Organised Knowledge Defined Netwrok
+## Self Organised Knowledge Defined Netwrok Architecture
 
 ![](pics/SO_KDN_arch.png)
+ 
+## _Detailed implementation is being updated on __Intelligent Overlay.ipynb__ file_  
 
 # Self-Organised Knowledge Defined Networks (SO-KDN)
 SO-KDN is a overlay SDN running on top of a non-SDN network. the custom Control plane __pulls__ the information from the infrastructure-plane,
