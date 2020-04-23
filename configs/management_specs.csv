@@ -1,0 +1,4 @@
+Router_name,Manage_iface,IP_address,Domain_name,Username,Password,Key_len,Secret
+router1,E1/0,dhcp,lsbu.ac.uk,user2,pass123,2048,cisco
+router2,E1/0,dhcp,lsbu.ac.uk,user1,pass,2048,cisco
+router3,E1/0,dhcp,lsbu.ac.uk,user1,pass,2048,cisco
